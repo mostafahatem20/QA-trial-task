@@ -1,0 +1,19 @@
+{
+  "baseUrl": "https://img.ly",
+  "integrationFolder": "cypress",
+  "downloadsFolder": "cypress/downloads",
+  "numTestsKeptInMemory": 5,
+  "defaultCommandTimeout": 50000,
+  "pageLoadTimeout": 60000,
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}",
+  "retries": {
+    "runMode": 1
+  },
+  "env": {
+    "short_timeout": 1000,
+    "medium_timeout": 5000,
+    "long_timeout": 50000,
+    "extra_long_timeout": 540000
+  }
+}
